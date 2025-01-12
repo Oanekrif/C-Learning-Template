@@ -1,0 +1,165 @@
+### *C Language Learning Template* ### 
+
+0--C
+°1  What is C?
+°1  Why learning C?
+°1  C and C++
+
+1--C Basics
+°1  Print functions
+°1  Input function
+°1  Escape Sequence and format specifier
+°1  Data Types
+°1  Keywords
+°1  Variables
+°1  Constant
+°1  the basic structure of c program and  main function
+°1  Next line and multiple str with (\, "")
+°1  single line Comment and Multiple line Comment
+°1  Problem 1: Write a program that print a self presentation, after take the person information.
+°1  Problem 2: Write a program that print a story, after take the person information.
+°1  Problem 3: Write a program that Print table ASCII characters from 32 to 126.
+
+2--Operators
+°1  Introduction to Operators in C
+°1  Arithmetic Operators
+°1  Relational Operators
+°1  Logical Operators
+°1  Assignment Operator
+°1  Bitwise Operator
+°1  Other Operators
+°1  Operator Precedence
+°1  Problem 1: Write a program that return the value of zakat.
+°1  Problem 2: write a program that return the value of seconds to hours, minites and seconds.
+°1  Problem 3: Write a program that describe a simple calculator using bitwise operations.
+
+3--Decision Making	
+°1  Decision making
+°1  If Statement
+°1  If Else Statement
+°1  Nested If Else Statement
+°1  Switch Statement
+°1  Ternary Operator
+°1  Problem 1: Write a program to print the name of the day/month according to its number.
+°1  Problem 2: Write a program to determine the parity of a number.
+°1  Problem 3: Write a program to build a simple calculator with if and switch statement.
+
+4--Loops
+°1  Why loops?
+°1  For loop In C
+°1  While loop In C
+°1  Do While loop In C
+°1  Nested loop In C
+°1  controle statement (break, continue, goto)
+°1  Problem 1: Write a program to return multiplication table of any number.
+°1  Problem 2: Write a program to calculate the sum and multiplication of all integers to a specific number.
+°1  Problem 3: Write a program to print a multiple forms of pyramids.
+
+5--Pointers
+°1  Address of a variable	
+°1  Basics of Computer Memory Address
+°1  Basics of Pointers
+°1  Call by value vs Call by reference
+°1  reference and dereference operator
+°1  Pointer to Pointer
+°1  Pointer Arithmetic
+°1  Pointer Comparison
+°1  Void and NULL pointer
+°1  Problem 1: write a program with two function one of them for Call by value and the other for Call by reference.
+°1  Problem 2: Write a program to show the value and memory address in three different ways, using pointer-to-pointer basics.
+
+6--Array	
+°1  Need of array
+°1  Array declaration & initialization
+°1  Access Array Elements And Update Them
+°1  Types of Array And Multidimensional Arrays (2D/3D Array for example)
+°1  Declaration & Initialization of 2D array
+°1  Array and pointers | arr+1 vs _arr+1
+°1  Accessing Array using Pointer (for while loops)
+°1  Pointer to an Array & Array of Pointers
+°1  +2D Array and Pointer
+°1  Problem 1: write a program That show the address and the value of the first element of two dimention array in for different ways.
+°1  Problem 2: write a program with 3x4 matrix of integers that initializes the matrix using a pointer to an array. Calculates the sum of elements in each row and prints it. Finds and prints the maximum element in each column using pointer arithmetic.
+
+7--String
+°1  Why string
+°1  String declaration and initialisation and manipulation
+°1  Getting string input
+°1  String operations
+°1  String and Pointer
+°1  Array of Pointers to String
+°1  puts, gets, fputs, fgets, putchar, getchar, strcpy, strnspy, strcat, strncat, strcmp
+°1  <String.h> header keyword.
+°1  Problem 1: write a program to print etch char on the str alone and finely the full str using the bisics of str and ptr in two ways.
+°1  Problem 2: Write a program that reads a string from the user using fgets and calculates the length of the string using the strlen function and prints it and reverses the string using a pointer and print it.
+
+8--Functions
+°1  Need of Function
+°1  Functions declaration and definition
+°1  How Function works
+°1  Passing parameters to functions by value & by reference
+°1  Return statement
+°1  Function and Procedure
+°1  Function Returning Pointer
+°1  Function call stack
+°1  Recursion
+°1  Block and storage classes (auto, extern, static, register, volatile,const), (Scopts and LifeTime).
+°1  Passing Array to Function
+°1  Pointer to function
+
+°1  Problem 1: Write a program that create a function swap() that takes two integer pointers as arguments and swaps the values of the integers using pointers to modify the values of the variables,And create a function pointer to point to the swap() function.In the main() function, declare two integers, a and b, initialize them with some values, and print them (Before swap). Use the function pointer to call the swap() function to swap the values of a and b, after the function call, print the new values of a and b to show that they have been swapped (After swap:).
+°1  Problem 2: Write a program that asks the user to choose an arithmetic operation (Addition, Subtraction, Multiplication, or Division) by entering a number between 0 and 3, then prompts the user to input two floating-point numbers. Use an array of function pointers to store the arithmetic functions, call the corresponding function based on the user's choice, handle division by zero errors, and print the result of the operation.
+
+9--Dynamic Memory Allocation
+°1  Need for dynamic memory allocation
+°1  Memory Layout in C
+°1  Malloc in C
+°1  Calloc in C
+°1  Malloc vs Calloc
+°1  Realloc in C
+°1  Free – Memory leak and Dangling Pointer
+°1  Problem1: Write a program that asks the user to enter 5 integer values and stores them in heap memory using malloc, the program should use a function to handle memory allocation and input, then, use a function pointer to call this function, calculate the sum of the entered numbers, and print the result.
+°1  Problem2: Write a program that ask the user how many integers they want to enter, and using calloc store these integers by taking input from user, after... ask the user if they want to add more numbers and reallocate the new values using realloc, and print all the numbers entered by the user.
+°1  Problem3: Write a program that prompts the user to specify the number of rows and columns for a 2D array. The program should dynamically allocate memory for the array using pointers and then allow the user to input values for each element. After the values are entered, the program should print the array.
+
+10--Data structure in C  #Array, Structure, Enumeration, Union.
+°1  Need of structure
+°1  Declaration and initialisation of structure
+°1  Structure padding and packing
+°1  Typedef and structure tag
+°1  Designated initialization in structure (.var)
+°1  Structure within structure
+°1  Array of structures
+°1  Passing structure to function
+°1  Bit Field
+°1  Pointer to Structure & Arrow Operator(->)
+°1  Passing Structure Pointer to Function
+°1  Function Returning Structure Pointer
+°1  Need of union
+°1  Declaration and initialisation of union
+°1  Passing union to function
+°1  Problem1: Write a program that asks the user to enter information for a list of cars. For each car, the program should prompt the user for the details (Mark, Color, Price). The program should dynamically allocate memory for the list of cars, and each car's mark and color should be stored using pointers . After the user has input all the information, the program should print the details for each car.
+°1  Problem2: Write a program that creating your own mixed type data structure (array containe mixed data type)
+°1  Problem3: Write a program that given the coordinates of the upper-left and lower-right corners of a rectangle. Your task is to calculate the area of the rectangle. The length of the rectangle is the difference between the x coordinates of the two corners, and the breadth is the difference between the y coordinates using struct.
+
+11--File handling
+°1  file open and close and __FIL
+°1  fputc and fputs
+°1  fprintf and fscanf
+°1  fgetc and fgets
+°1  rename and remove
+°1  ferror and clearerr
+°1  rewind and tmpfile and tmpnam
+°1  Problem1: Write a program that prompts the user for input, creates a new C file (file.c), and writes a simple C program into the file that includes the user's input in a printf statement.
+°1  Problem2: Write a program that retrieves and prints the name of the current source file, using the __FILE__ macro to get the full path, and extracting the file name by locating the last occurrence of '/' or '\' in the path.
+°1  Problem3: Write a program that attempts to open a file (example.txt) for reading, checks for errors during a write operation after the file is closed, and resets the error flag to attempt a successful write operation after reopening the file.
+
+12--Program Execution Process And Keywords
+°1  Compiler and How to Compile?
+°1  Preprocessor
+°1  Assembler, Linker, Loader in C
+°1  All Keywords
+°1  C Standard Library header files
+
+## What’s next?
+Master Library in C and Data Structures and Algorithmes
